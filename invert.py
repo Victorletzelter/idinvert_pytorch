@@ -12,10 +12,10 @@ import argparse
 from tqdm import tqdm
 import numpy as np
 
-from utils.inverter import StyleGANInverter
-from utils.logger import setup_logger
-from utils.visualizer import HtmlPageVisualizer
-from utils.visualizer import save_image, load_image, resize_image
+from idinvert_pytorch.utils.inverter import StyleGANInverter
+from idinvert_pytorch.utils.logger import setup_logger
+from idinvert_pytorch.utils.visualizer import HtmlPageVisualizer
+from idinvert_pytorch.utils.visualizer import save_image, load_image, resize_image
 
 
 def parse_args():

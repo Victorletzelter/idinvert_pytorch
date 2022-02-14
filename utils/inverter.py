@@ -7,9 +7,9 @@ import numpy as np
 
 import torch
 
-from models.stylegan_generator import StyleGANGenerator
-from models.stylegan_encoder import StyleGANEncoder
-from models.perceptual_model import PerceptualModel
+from idinvert_pytorch.models.stylegan_generator import StyleGANGenerator
+from idinvert_pytorch.models.stylegan_encoder import StyleGANEncoder
+from idinvert_pytorch.models.perceptual_model import PerceptualModel
 
 __all__ = ['StyleGANInverter']
 
